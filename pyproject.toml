@@ -1,0 +1,22 @@
+[project]
+name = "inteligencia-mercado-multiagente"
+version = "0.1.0"
+description = "Equipe multiagente de inteligência de mercado com Python e Agno"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "agno[os]>=2.9.0,<3",
+    "chonkie[semantic]>=1.7.0",
+    "chromadb>=1.5.9",
+    "ddgs>=9.16.1",
+    "openai>=3.35.1",
+    "python-dotenv>=1.2.4",
+    "tavily-python>=0.8.5",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = false

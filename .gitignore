@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Ambiente e credenciais
+.venv/
+.env
+!.env.example
+
+# Bancos e índices locais. A base Markdown do RAG permanece no repositório.
+tmp/*.db
+tmp/*.sqlite
+tmp/*.sqlite3
+tmp/chromadb/
+tmp/*.log
+
+# Sistema
+.DS_Store
+*.swp
